@@ -3,7 +3,7 @@
 // =========================
 
 let products = [];
-let categories = [];
+
 let currentCategory = "Todos";
 
 
