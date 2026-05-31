@@ -99,7 +99,7 @@ function filterByCategory(category) {
     const filtered =
         products.filter(
             product =>
-                product.category === category
+                normalize(product.category) === normalize(category)
         );
 
     renderProducts(filtered);
@@ -222,5 +222,15 @@ function searchProducts() {
         );
 
     renderProducts(filtered);
+
+}
+
+
+function normalize(text){
+
+    return text
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
 
 }
