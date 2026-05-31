@@ -6,6 +6,16 @@ let products = [];
 let categories = [];
 let currentCategory = "Todos";
 
+
+const categories = [
+    "Todos",
+    "Bebes",
+    "Ninas",
+    "Ninos",
+    "Cobijas",
+    "Accesorios"
+];
+
 // =========================
 // INICIO
 // =========================
