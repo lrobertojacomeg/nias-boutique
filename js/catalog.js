@@ -21,28 +21,12 @@ const categories = [
 
 document.addEventListener("DOMContentLoaded", async () => {
 
-    await loadCategories();
+    
     await loadProducts();
 
     initSearch();
 
 });
-
-// =========================
-// CARGAR CATEGORIAS
-// =========================
-
-async function loadCategories() {
-
-    const response =
-        await fetch("data/categories.json");
-
-    categories =
-        await response.json();
-
-    renderCategories();
-
-}
 
 // =========================
 // CARGAR PRODUCTOS
@@ -60,35 +44,7 @@ async function loadProducts() {
 
 }
 
-// =========================
-// RENDER CATEGORIAS
-// =========================
 
-function renderCategories() {
-
-    const container =
-        document.getElementById("categoryFilters");
-
-    container.innerHTML = "";
-
-    categories.forEach(category => {
-
-        const button =
-            document.createElement("button");
-
-        button.textContent =
-            category;
-
-        button.addEventListener(
-            "click",
-            () => filterByCategory(category)
-        );
-
-        container.appendChild(button);
-
-    });
-
-}
 
 // =========================
 // FILTRAR
