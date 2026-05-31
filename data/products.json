@@ -19,4 +19,14 @@
         "description":"Vestido elegante para niña.",
         "sizes":["2 años","4 años","6 años"]
     }
+    {
+        "id":3,
+        "name":"Cepillo minie",
+        "brand":"diseny",
+        "category":"Ninas",
+        "price":2.59,
+        "image":"images/products/cepillominie.jpg",
+        "description":"cepillin."
+        
+    }
 ]
