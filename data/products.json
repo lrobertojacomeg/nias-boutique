@@ -5,7 +5,7 @@
         "brand":"Carter's",
         "category":"Bebes",
         "price":24.99,
-        "image":"images/products/carters-azul.jpg",
+        "image":"images/products/carters.jpg",
         "description":"Conjunto de algodón para bebé.",
         "sizes":["3M","6M","9M"]
     },
@@ -15,7 +15,7 @@
         "brand":"Milon",
         "category":"Ninas",
         "price":29.99,
-        "image":"images/products/milon-floral.jpg",
+        "image":"images/products/vestido.jpg",
         "description":"Vestido elegante para niña.",
         "sizes":["2 años","4 años","6 años"]
     },
