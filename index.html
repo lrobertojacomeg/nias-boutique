@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nia's Boutique | Moda Infantil</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+
+    <div class="topbar">
+
+        <div class="container">
+
+            <div> Loja - Ecuador</div>
+
+            <div> 0993493918</div>
+
+        </div>
+
+    </div>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="container header-content">
+
+            <div class="logo">
+
+                <img src="images/logo.png">
+
+            </div>
+
+            <nav>
+
+                <a href="#inicio">Inicio</a>
+                <a href="#marcas">Marcas</a>
+                <a href="#categorias">Categorías</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#contacto">Contacto</a>
+
+            </nav>
+
+            <a
+                class="btn-header"
+                href="https://wa.me/593993493918">
+
+                WhatsApp
+
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section id="inicio" class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>
+                Moda Infantil para los más pequeños
+            </h1>
+
+            <p>
+                Calidad, estilo y comodidad para cada etapa.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#catalogo" class="btn-primary">
+                    Ver Catálogo
+                </a>
+
+                <a
+                    href="https://wa.me/593993493918"
+                    class="btn-secondary">
+
+                    WhatsApp
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MARCAS -->
+
+    <section id="marcas">
+
+        <div class="container">
+
+            <h2>Marcas que trabajamos</h2>
+
+            <div id="brandsGrid" class="brands-grid"></div>
+
+        </div>
+
+    </section>
+
+    <!-- CATEGORIAS -->
+
+    <section id="categorias">
+
+        <div class="container">
+
+            <h2>Categorías</h2>
+
+            <div class="categories-grid">
+
+                <div class="category-card">
+                    <img src="images/categories/bebes.jpg">
+                    <div class="category-title">Bebés</div>
+                </div>
+
+                <div class="category-card">
+                    <img src="images/categories/ninas.jpg">
+                    <div class="category-title">Niñas</div>
+                </div>
+
+                <div class="category-card">
+                    <img src="images/categories/ninos.jpg">
+                    <div class="category-title">Niños</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CATALOGO -->
+
+    <section id="catalogo">
+
+        <div class="container">
+
+            <div class="catalog-header">
+
+                <h2>Nuestro Catálogo</h2>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Buscar producto...">
+
+            </div>
+
+            <div id="categoryFilters" class="filters"></div>
+
+            <div id="productsGrid"></div>
+
+        </div>
+
+    </section>
+
+    <!-- GALERIA -->
+
+    <section>
+
+        <div class="container">
+
+            <h2>Galería</h2>
+
+            <div class="gallery-grid">
+
+                <img src="images/gallery/1.jpg">
+                <img src="images/gallery/2.jpg">
+                <img src="images/gallery/3.jpg">
+                <img src="images/gallery/4.jpg">
+                <img src="images/gallery/5.jpg">
+                <img src="images/gallery/6.jpg">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+        <div class="container">
+
+            <h2>
+                ¿Necesitas ayuda para elegir?
+            </h2>
+
+            <a
+                href="https://wa.me/593993493918"
+                class="btn-primary">
+
+                Escríbenos
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="contacto">
+
+        <div class="container footer-grid">
+
+            <div>
+                <img src="images/logo.png" class="footer-logo">
+            </div>
+
+            <div>
+                <h3>Contacto</h3>
+                <p>0993493918</p>
+                <p>Loja - Ecuador</p>
+            </div>
+
+            <div>
+                <h3>Redes Sociales</h3>
+                <p>Facebook</p>
+                <p>Instagram</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- MODAL -->
+
+    <div id="productModal" class="modal">
+
+        <div class="modal-content">
+
+            <span id="closeModal">&times;</span>
+
+            <img id="modalImage">
+
+            <h2 id="modalName"></h2>
+
+            <p id="modalDescription"></p>
+
+            <h3 id="modalPrice"></h3>
+
+            <label>Talla</label>
+
+            <select id="modalSize"></select>
+
+            <button id="addToCart">
+                Agregar al pedido
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- CARRITO -->
+
+    <div id="cartPanel">
+
+        <div class="cart-header">
+
+            <h3>Mi Pedido</h3>
+
+            <span id="cartCount">0</span>
+
+        </div>
+
+        <div id="cartItems"></div>
+
+        <button id="checkoutBtn">
+            Finalizar por WhatsApp
+        </button>
+
+    </div>
+
+    <script src="js/catalog.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+
+
+<!-- BOTON CARRITO -->
+
+<button id="cartToggle">
+
+    <span id="cartCount">0</span>
+
+</button>
+
+<!-- PANEL CARRITO -->
+
+<div id="cartPanel">
+
+    <div class="cart-header">
+
+        <h3>Mi Pedido</h3>
+
+        <button id="closeCart">X</button>
+
+    </div>
+
+    <div id="cartItems"></div>
+
+    <div class="cart-footer">
+
+        <h3>
+            Total: $<span id="cartTotal">0.00</span>
+        </h3>
+
+        <button id="checkoutBtn">
+            Finalizar por WhatsApp
+        </button>
+
+    </div>
+
+</div>
+</body>
+
+</html>
