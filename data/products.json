@@ -26,7 +26,8 @@
         "category":"Ninas",
         "price":2.59,
         "image":"images/products/cepillominie.jpg",
-        "description":"cepillin."
+        "description":"cepillin.",
+        "sizes":[""]
         
     }
 ]
