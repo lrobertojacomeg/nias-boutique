@@ -3,20 +3,20 @@
         "id":1,
         "name":"Conjunto Carter's Azul",
         "brand":"Carter's",
-        "category":"Bebés",
+        "category":"Bebes",
         "price":24.99,
         "image":"images/products/carters-azul.jpg",
-        "description":"Conjunto de algodón para bebé.",
+        "description":"Conjunto de algodÃ³n para bebÃ©.",
         "sizes":["3M","6M","9M"]
     },
     {
         "id":2,
         "name":"Vestido Milon Floral",
         "brand":"Milon",
-        "category":"Niñas",
+        "category":"Ninas",
         "price":29.99,
         "image":"images/products/milon-floral.jpg",
-        "description":"Vestido elegante para niña.",
-        "sizes":["2 años","4 años","6 años"]
+        "description":"Vestido elegante para niÃ±a.",
+        "sizes":["2 aÃ±os","4 aÃ±os","6 aÃ±os"]
     }
 ]
