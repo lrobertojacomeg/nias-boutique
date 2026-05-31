@@ -17,15 +17,15 @@
 
 <body>
 
-    <!-- TOP BAR -->
+    <!-- TOPBAR -->
 
     <div class="topbar">
 
         <div class="container">
 
-            <div> Loja - Ecuador</div>
+            <div>üìç Loja - Ecuador</div>
 
-            <div> 0993493918</div>
+            <div>üìû 0993493918</div>
 
         </div>
 
@@ -39,7 +39,7 @@
 
             <div class="logo">
 
-                <img src="images/logo.png">
+                <img src="images/logo.png" alt="Nia's Boutique">
 
             </div>
 
@@ -47,15 +47,15 @@
 
                 <a href="#inicio">Inicio</a>
                 <a href="#marcas">Marcas</a>
-                <a href="#categorias">CategorÌas</a>
-                <a href="#catalogo">Cat·logo</a>
+                <a href="#categorias">Categor√≠as</a>
+                <a href="#catalogo">Cat√°logo</a>
                 <a href="#contacto">Contacto</a>
 
             </nav>
 
             <a
-                class="btn-header"
-                href="https://wa.me/593993493918">
+                href="https://wa.me/593993493918"
+                class="btn-header">
 
                 WhatsApp
 
@@ -69,29 +69,27 @@
 
     <section id="inicio" class="hero">
 
-        <div class="hero-overlay"></div>
-
         <div class="hero-content">
 
             <h1>
-                Moda Infantil para los m·s pequeÒos
+                Moda Infantil para los m√°s peque√±os
             </h1>
 
             <p>
-                Calidad, estilo y comodidad para cada etapa.
+                Calidad, comodidad y las mejores marcas para beb√©s y ni√±os.
             </p>
 
             <div class="hero-buttons">
 
                 <a href="#catalogo" class="btn-primary">
-                    Ver Cat·logo
+                    Ver Cat√°logo
                 </a>
 
                 <a
                     href="https://wa.me/593993493918"
                     class="btn-secondary">
 
-                    WhatsApp
+                    Contactar
 
                 </a>
 
@@ -109,7 +107,11 @@
 
             <h2>Marcas que trabajamos</h2>
 
-            <div id="brandsGrid" class="brands-grid"></div>
+            <div id="brandsGrid" class="brands-grid">
+
+                <!-- generado por JS -->
+
+            </div>
 
         </div>
 
@@ -121,23 +123,38 @@
 
         <div class="container">
 
-            <h2>CategorÌas</h2>
+            <h2>Categor√≠as</h2>
 
             <div class="categories-grid">
 
                 <div class="category-card">
-                    <img src="images/categories/bebes.jpg">
-                    <div class="category-title">BebÈs</div>
+
+                    <img src="images/categories/bebes.jpg" alt="Beb√©s">
+
+                    <div class="category-title">
+                        Beb√©s
+                    </div>
+
                 </div>
 
                 <div class="category-card">
-                    <img src="images/categories/ninas.jpg">
-                    <div class="category-title">NiÒas</div>
+
+                    <img src="images/categories/ninas.jpg" alt="Ni√±as">
+
+                    <div class="category-title">
+                        Ni√±as
+                    </div>
+
                 </div>
 
                 <div class="category-card">
-                    <img src="images/categories/ninos.jpg">
-                    <div class="category-title">NiÒos</div>
+
+                    <img src="images/categories/ninos.jpg" alt="Ni√±os">
+
+                    <div class="category-title">
+                        Ni√±os
+                    </div>
+
                 </div>
 
             </div>
@@ -154,7 +171,7 @@
 
             <div class="catalog-header">
 
-                <h2>Nuestro Cat·logo</h2>
+                <h2>Nuestro Cat√°logo</h2>
 
                 <input
                     type="text"
@@ -163,9 +180,17 @@
 
             </div>
 
-            <div id="categoryFilters" class="filters"></div>
+            <div
+                id="categoryFilters"
+                class="filters">
 
-            <div id="productsGrid"></div>
+            </div>
+
+            <div id="productsGrid">
+
+                <!-- generado por JS -->
+
+            </div>
 
         </div>
 
@@ -173,11 +198,11 @@
 
     <!-- GALERIA -->
 
-    <section>
+    <section id="galeria">
 
         <div class="container">
 
-            <h2>GalerÌa</h2>
+            <h2>Galer√≠a</h2>
 
             <div class="gallery-grid">
 
@@ -201,14 +226,14 @@
         <div class="container">
 
             <h2>
-                øNecesitas ayuda para elegir?
+                ¬øNecesitas ayuda para elegir?
             </h2>
 
             <a
                 href="https://wa.me/593993493918"
                 class="btn-primary">
 
-                EscrÌbenos
+                Escr√≠benos
 
             </a>
 
@@ -223,19 +248,29 @@
         <div class="container footer-grid">
 
             <div>
-                <img src="images/logo.png" class="footer-logo">
+
+                <img
+                    src="images/logo.png"
+                    class="footer-logo">
+
             </div>
 
             <div>
+
                 <h3>Contacto</h3>
+
                 <p>0993493918</p>
                 <p>Loja - Ecuador</p>
+
             </div>
 
             <div>
+
                 <h3>Redes Sociales</h3>
+
                 <p>Facebook</p>
                 <p>Instagram</p>
+
             </div>
 
         </div>
@@ -250,7 +285,10 @@
 
             <span id="closeModal">&times;</span>
 
-            <img id="modalImage">
+            <img
+                id="modalImage"
+                src=""
+                alt="">
 
             <h2 id="modalName"></h2>
 
@@ -258,12 +296,12 @@
 
             <h3 id="modalPrice"></h3>
 
-            <label>Talla</label>
-
             <select id="modalSize"></select>
 
             <button id="addToCart">
+
                 Agregar al pedido
+
             </button>
 
         </div>
@@ -272,65 +310,54 @@
 
     <!-- CARRITO -->
 
+    <button id="cartToggle">
+
+        üõí <span id="cartCount">0</span>
+
+    </button>
+
     <div id="cartPanel">
 
         <div class="cart-header">
 
             <h3>Mi Pedido</h3>
 
-            <span id="cartCount">0</span>
+            <button id="closeCart">
+
+                ‚úï
+
+            </button>
 
         </div>
 
         <div id="cartItems"></div>
 
-        <button id="checkoutBtn">
-            Finalizar por WhatsApp
-        </button>
+        <div class="cart-footer">
+
+            <h3>
+
+                Total:
+                $<span id="cartTotal">0.00</span>
+
+            </h3>
+
+            <button id="checkoutBtn">
+
+                Finalizar por WhatsApp
+
+            </button>
+
+        </div>
 
     </div>
+
+    <!-- SCRIPTS -->
 
     <script src="js/catalog.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/app.js"></script>
 
-
-<!-- BOTON CARRITO -->
-
-<button id="cartToggle">
-
-    <span id="cartCount">0</span>
-
-</button>
-
-<!-- PANEL CARRITO -->
-
-<div id="cartPanel">
-
-    <div class="cart-header">
-
-        <h3>Mi Pedido</h3>
-
-        <button id="closeCart">X</button>
-
-    </div>
-
-    <div id="cartItems"></div>
-
-    <div class="cart-footer">
-
-        <h3>
-            Total: $<span id="cartTotal">0.00</span>
-        </h3>
-
-        <button id="checkoutBtn">
-            Finalizar por WhatsApp
-        </button>
-
-    </div>
-
-</div>
 </body>
 
 </html>
